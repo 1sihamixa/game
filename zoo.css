@@ -1,0 +1,32 @@
+body {
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+img {
+    width:100px;
+    height:200px;
+    padding:30px;
+}
+.goats {
+    width:200px;
+}
+.children {
+    width:350px;
+    height:300px;
+}
+.giraffe {
+    width:200px;
+    height:300px;
+}
+audio {
+    display:none;
+}
+.jardin {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top:0;
+    z-index: -1;
+}
